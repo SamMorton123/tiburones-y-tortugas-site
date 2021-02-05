@@ -1,0 +1,17 @@
+// Costa Rican flag
+$cr-blue: #002B7F;
+$cr-red: #CE1126;
+$cr-white: #FFFFFF;
+
+// page setup
+body {
+    margin: 0;
+    padding: 0;
+}
+
+// TnT main top banner
+.tnt-banner {
+    width: 100%;
+    height: 260px;
+    background-color: $cr-blue;
+}
