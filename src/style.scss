@@ -3,6 +3,10 @@ $cr-blue: #002B7F;
 $cr-red: #CE1126;
 $cr-white: #FFFFFF;
 
+// generic colors
+$nat-geo-grey: #373737;
+$nat-geo-salmon: #eb5f3c;
+
 // page setup
 body {
     margin: 0;
@@ -13,5 +17,92 @@ body {
 .tnt-banner {
     width: 100%;
     height: 260px;
-    background-color: $cr-blue;
+    background-color: $nat-geo-grey;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    .tnt-horizontal-nav {
+        width: 65%;
+        height: 40px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .tnt-navlink {
+        $tnt-navlink-color: $nat-geo-salmon;
+
+        width: 110px;
+        height: 30px;
+
+        font-size: 16px;
+        color: $tnt-navlink-color;
+
+        border-top-style: solid;
+        border-color: $tnt-navlink-color;
+
+        transition: .2s;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tnt-navlink:hover {
+        $tnt-navlink-transition-color: $cr-white;
+        
+        color: $tnt-navlink-transition-color;
+        border-color: $tnt-navlink-transition-color;
+    }
+}
+
+
+.tnt-title {
+    width: 1000px;
+    height: 150px;
+    margin: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+    .title-subtitle {
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+
+        .title-text {
+            font-size: 70px;
+            color: $cr-white;
+    
+            border-bottom-style: solid;
+            border-color: $nat-geo-salmon;
+        }
+
+        .tnt-subtitle {
+            width: 100%;
+    
+            font-size: 30px;
+            color: $cr-white;
+    
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            align-items: center;
+        }
+    }
+
+    .tnt-logo {
+        margin: 8px;
+    }
 }

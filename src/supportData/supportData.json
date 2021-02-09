@@ -1,5 +1,8 @@
 {
     "tnt-navlinks": [
         "Home", "Opportunity 1", "Opportunity 2", "News", "Partners", "Gallery", "Contact Us"
-    ]
+    ],
+    "tnt-title": "Tiburones y Tortugas",
+    "tnt-subtitle": "Sharks, Turtles, Research, Costa Rica",
+    "tnt-logo-path": "./src/supportData/shark.png"
 }
