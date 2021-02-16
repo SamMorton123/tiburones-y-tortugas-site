@@ -6,6 +6,7 @@ $cr-white: #FFFFFF;
 // generic colors
 $nat-geo-grey: #373737;
 $nat-geo-salmon: #eb5f3c;
+$gold: #FFD700;
 
 // page setup
 body {
@@ -35,7 +36,7 @@ body {
     }
 
     .tnt-navlink {
-        $tnt-navlink-color: $nat-geo-salmon;
+        $tnt-navlink-color: $gold;
 
         width: 110px;
         height: 30px;
@@ -86,7 +87,7 @@ body {
             color: $cr-white;
     
             border-bottom-style: solid;
-            border-color: $nat-geo-salmon;
+            border-color: $gold;
         }
 
         .tnt-subtitle {
