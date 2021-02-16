@@ -1,24 +1,33 @@
 import React from 'react';
-// import {
-//   BrowserRouter as Router, Route, Switch, NavLink,
-// } from 'react-router-dom';
+import {
+  BrowserRouter as Router, Route, Switch,
+} from 'react-router-dom';
 
 // local
 import TNTBanner from './TNTBanner';
+import TNTHome from './TNTHome';
+import TNTStudentOpportunities from './TNTStudentOpportunities';
+import TNTNews from './TNTNews';
+import TNTPartners from './TNTPartners';
+import TNTGallery from './TNTGallery';
+import TNTContact from './TNTContact';
+import TNTFallBack from './TNTFallback';
 
 const App = (props) => {
   return (
     <div>
-      <TNTBanner />
-      {/* <Router>
+      <Router>
+        <TNTBanner />
         <Switch>
-          <Route exact path="/" component={HomePage} />
-          <Route path="/about" component={AboutPage} />
-            <Route path="/projects" component={ProjectsPage} />
-            <Route path="/contact" component={ContactPage} />
-          <Route component={FallBack} />
+          <Route exact path="/" component={TNTHome} />
+          <Route path="/opportunities" component={TNTStudentOpportunities} />
+          <Route path="/news" component={TNTNews} />
+          <Route path="/partners" component={TNTPartners} />
+          <Route path="/gallery" component={TNTGallery} />
+          <Route path="/contact" component={TNTContact} />
+          <Route component={TNTFallBack} />
         </Switch>
-      </Router> */}
+      </Router>
     </div>
   );
 };

@@ -3,15 +3,15 @@ import React from 'react';
 // local
 import TNTNavLink from './TNTNavLink';
 
-// local data
-const supportData = require('../supportData/supportData');
-
 const TNTHorizontalNav = (props) => {
   return (
     <div className="tnt-horizontal-nav">
-      {supportData['tnt-navlinks'].map((linkName) => (
-        <TNTNavLink key={linkName} navName={linkName} />
-      ))}
+      <TNTNavLink exact="1" linkName="/" navName="Home" />
+      <TNTNavLink exact="2" linkName="/opportunities" navName="Opportunities" />
+      <TNTNavLink exact="2" linkName="/news" navName="News" />
+      <TNTNavLink exact="2" linkName="/partners" navName="Partners" />
+      <TNTNavLink exact="2" linkName="/gallery" navName="Gallery" />
+      <TNTNavLink exact="2" linkName="/contact" navName="Contact Us" />
     </div>
   );
 };
