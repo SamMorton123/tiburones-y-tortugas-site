@@ -4,5 +4,12 @@
     ],
     "tnt-title": "Tiburones y Tortugas",
     "tnt-subtitle": "Sharks, Turtles, Research, Costa Rica",
-    "tnt-logo-path": "./src/supportData/shark.png"
+    "tnt-logo-path": "./src/supportData/shark.png",
+    "image-alt": "Img",
+    "home-title-1": "Stewards",
+    "home-text-1": "We protect miles of virgin beach on the west coast of Costa Rica near Drake Bay",
+    "home-title-2": "Scientists",
+    "home-text-2": "Furthering our understanding of the rich environment in Drake Bay through trailblazing research",
+    "home-title-3": "Mentors",
+    "home-text-3": "Inspiring the next generation of biologists and ecologists"
 }
