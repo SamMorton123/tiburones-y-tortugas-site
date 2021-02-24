@@ -4,6 +4,7 @@ import React from 'react';
 import staticHomeImage1 from '../supportData/panama-puffer.jpg';
 import staticHomeImage2 from '../supportData/rainbow.jpg';
 import staticHomeImage3 from '../supportData/rainforest-butterflies.jpg';
+import TNTFooter from './TNTFooter';
 import TNTHomeBanner from './TNTHomeBanner';
 
 // local data
@@ -41,6 +42,7 @@ const TNTHome = (props) => {
       <TNTHomeBanner bannerData={bannerData1} />
       <TNTHomeBanner bannerData={bannerData2} />
       <TNTHomeBanner bannerData={bannerData3} />
+      <TNTFooter />
     </div>
   );
 };
