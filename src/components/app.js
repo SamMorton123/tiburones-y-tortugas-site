@@ -11,6 +11,7 @@ import TNTNews from './TNTNews';
 import TNTPartners from './TNTPartners';
 import TNTGallery from './TNTGallery';
 import TNTContact from './TNTContact';
+import TNTVision from './TNTVision';
 import TNTFallBack from './TNTFallback';
 
 const App = (props) => {
@@ -25,6 +26,7 @@ const App = (props) => {
           <Route path="/partners" component={TNTPartners} />
           <Route path="/gallery" component={TNTGallery} />
           <Route path="/contact" component={TNTContact} />
+          <Route path="/vision" component={TNTVision} />
           <Route component={TNTFallBack} />
         </Switch>
       </Router>
