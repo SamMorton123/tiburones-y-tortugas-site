@@ -2,7 +2,7 @@
     "tnt-navlinks": [
         "Home", "Opportunity 1", "Opportunity 2", "News", "Partners", "Gallery", "Contact Us"
     ],
-    "tnt-title": "Tiburones y Tortugas",
+    "tnt-title": "Tiburones n Tortugas",
     "tnt-subtitle": "Sharks, Turtles, Research, Costa Rica",
     "tnt-logo-path": "./src/supportData/shark.png",
     "image-alt": "Img",
@@ -14,5 +14,8 @@
     "home-text-3": "Inspiring the next generation of biologists and ecologists",
     "footer-content-tnt-name": "Tiburones y Tortugas, 2021",
     "footer-content-location-name": "Drake Bay, Costa Rica",
-    "footer-content-contact": "hello@tnt.org"
+    "footer-content-contact": "hello@tnt.org",
+    "vision-header": "Our Vision",
+    "tnt-vision-banner-header": "Cutting-edge research, stubborn conservation",
+    "tnt-vision-banner-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et molestie ac feugiat sed lectus. Sagittis eu volutpat odio facilisis. Est velit egestas dui id. Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Tortor at risus viverra adipiscing at in tellus integer. Dignissim cras tincidunt lobortis feugiat vivamus at augue eget arcu. Consequat semper viverra nam libero justo laoreet sit. Augue eget arcu dictum varius duis at consectetur lorem. Dignissim diam quis enim lobortis scelerisque. Interdum velit laoreet id donec ultrices."
 }
