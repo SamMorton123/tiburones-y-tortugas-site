@@ -1,6 +1,9 @@
 {
     "tnt-navlinks": [
-        "Home", "Opportunity 1", "Opportunity 2", "News", "Partners", "Gallery", "Contact Us"
+        {"navName": "Home", "exactMode": "1", "linkName": "/"},
+        {"navName": "Opportunities", "exactMode": "2", "linkName": "/opportunities"},
+        {"navName": "About", "exactMode": "2", "linkName": "/about"},
+        {"navName": "Donate", "exactMode": "2", "linkName": "/donate"}
     ],
     "tnt-title": "Tiburones n Tortugas",
     "tnt-subtitle": "Sharks, Turtles, Research, Costa Rica",
