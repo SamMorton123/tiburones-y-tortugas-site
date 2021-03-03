@@ -7,12 +7,17 @@ $cr-white: #FFFFFF;
 $nat-geo-grey: #373737;
 $nat-geo-salmon: #eb5f3c;
 $gold: #FFD700;
+$black: #000000;
+$light-grey: #d3d3d3;
+$grey: #808080;
 $home-background-1: #00A830;
-$vision-text-background: #000000;
+$vision-text-background: $black;
 
 // fonts
 $title-font: 'Comfortaa', cursive;
 $home-font: 'Poppins', sans-serif;
+$ibm-font: 'IBM Plex Serif', serif;
+$newsfeed-font: 'Oswald', sans-serif;
 $vision-font: $home-font;
 
 // home banner customization
@@ -295,5 +300,41 @@ body {
             color: $cr-white;
         }
         
+    }
+}
+
+.newsfeed {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    .news-item {
+        width: 50%;
+        height: 800px;
+
+        font-family: $newsfeed-font;
+
+        .news-title {
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+        .news-subtitle {
+            font-size: 22px;
+            color: $grey;
+        }
+
+        .news-img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+
+        .news-text {
+            font-size: 18px;
+            font-family: $ibm-font;
+        }
     }
 }

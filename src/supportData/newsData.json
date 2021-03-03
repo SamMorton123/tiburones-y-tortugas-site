@@ -1,0 +1,16 @@
+[
+    {
+        "title": "NeurIPS Conference: Historical Data Analysis",
+        "subtitle": "Analysing conference trends from 1987 to 2020.",
+        "fname": "./src/supportData/newsMD/story1.md",
+        "img": "./src/supportData/conference.jpeg",
+        "imgAlt": "Story image"
+    },
+    {
+        "title": "Story 2",
+        "subtitle": "Subtitle 2",
+        "fname": "./src/supportData/newsMD/story2.md",
+        "img": "./src/supportData/conference.jpeg",
+        "imgAlt": "Story image"
+    }
+]
