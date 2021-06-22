@@ -7,7 +7,7 @@
     ],
     "tnt-title": "Tiburones n Tortugas",
     "tnt-subtitle": "Sharks, Turtles, Research, Costa Rica",
-    "tnt-logo-path": "./src/supportData/shark.png",
+    "tnt-logo-path": "./src/supportData/logo.png",
     "image-alt": "Img",
     "home-title-1": "Stewards",
     "home-text-1": "We protect miles of virgin beach on the west coast of Costa Rica near Drake Bay",
@@ -18,7 +18,11 @@
     "footer-content-tnt-name": "Tiburones y Tortugas, 2021",
     "footer-content-location-name": "Drake Bay, Costa Rica",
     "footer-content-contact": "hello@tnt.org",
+    "donateBlurbTitle": "Donate Today",
+    "donateBlurbText": "Costa Rica and Drake Bay in particular are rich ecological resources with species such as sharks and turtles in need of protection from poaching nad habitat destruction. Help us protect these species and this amazing place with your donation today.",
+    "donateBlurbSubtext": "Make a tax-deductible gift today, and help us take on the fights ahead!",
     "vision-header": "Our Vision",
     "tnt-vision-banner-header": "Cutting-edge research, stubborn conservation",
-    "tnt-vision-banner-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et molestie ac feugiat sed lectus. Sagittis eu volutpat odio facilisis. Est velit egestas dui id. Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Tortor at risus viverra adipiscing at in tellus integer. Dignissim cras tincidunt lobortis feugiat vivamus at augue eget arcu. Consequat semper viverra nam libero justo laoreet sit. Augue eget arcu dictum varius duis at consectetur lorem. Dignissim diam quis enim lobortis scelerisque. Interdum velit laoreet id donec ultrices."
+    "tnt-vision-banner-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et molestie ac feugiat sed lectus. Sagittis eu volutpat odio facilisis. Est velit egestas dui id. Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Tortor at risus viverra adipiscing at in tellus integer. Dignissim cras tincidunt lobortis feugiat vivamus at augue eget arcu. Consequat semper viverra nam libero justo laoreet sit. Augue eget arcu dictum varius duis at consectetur lorem. Dignissim diam quis enim lobortis scelerisque. Interdum velit laoreet id donec ultrices.",
+    "donatePhoto": "./src/supportData/ocean.jpg"
 }
