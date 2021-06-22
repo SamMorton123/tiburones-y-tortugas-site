@@ -7,8 +7,8 @@ import TNTLogo from './TNTLogo';
 const TNTTitle = (props) => {
   return (
     <div className="tnt-title">
-      <TitleSubtitle />
       <TNTLogo />
+      <TitleSubtitle />
     </div>
   );
 };
